@@ -1,3 +1,49 @@
+@font-face {
+    font-family: "FreePixel";
+    src: url(fonts/FreePixel.ttf);
+}
 body {
-    background-color: rgb(67, 66, 66);
+    background-color: rgb(78, 88, 68);
+}
+.topbox {
+    background-color: rgb(40, 45, 34);
+    width:800px;
+    height: 75px;
+    padding: 0;
+    margin: auto;
+    display: block;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
+}
+.middlebox {
+    background-color: rgb(61,64,56);
+    width: 800px;
+    height: 5px;
+    padding: 0;
+    margin: auto;
+    display: block;
+}
+.bottombox {
+    background-color: rgb(0, 0, 0);
+    width: 800px;
+    height: 41px;
+    padding: 0;
+    margin: auto;
+    display: block;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.mainbox {
+    background-image: linear-gradient(rgb(254,254,254), rgb(245,245,245), rgb(234,234,234), rgb(184,184,184));
+    width: 800px;
+    padding: 0;
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+    
+}
+.subbox {
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 10px;
 }

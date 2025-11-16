@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cassette Beasts Damage Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+</style>
+<body>
+    <div style="display: flex;">
+        <div class="box" style="margin-left: auto;">
+            <legend class="headerbar">Monster 1</legend>
+            <div class="monsterDropdown">
+                <button onclick="characterDropdownScript1()" id="charDrop1" class="monsterDropdownButton characterDropdownButton1">Player</button>
+                <div id="charDropdown1" class="monsterDropdownContent characterDropdownContent1">
+                    <a id="Player" onclick="selectCharacterScript1()">Player</a>
+                    <a id="Kayleigh" onclick="selectCharacterScript1()">Kayleigh</a>
+                    <a id="Eugene" onclick="selectCharacterScript1()">Eugene</a>
+                    <a id="Meredith" onclick="selectCharacterScript1()">Meredith</a>
+                    <a id="Felix" onclick="selectCharacterScript1()">Felix</a>
+                    <a id="Viola" onclick="selectCharacterScript1()">Viola</a>
+                    <a id="Barkley" onclick="selectCharacterScript1()">Barkley</a>
+                    <a id="Sunny" onclick="selectCharacterScript1()">Sunny</a>
+                    <a id="Wild Monster" onclick="selectCharacterScript1()">Wild Monster</a>
+                    <a id="NPC" onclick="selectCharacterScript1()">NPC</a>
+                    <a id="Ranger Captain" onclick="selectCharacterScript1()">Ranger Captain</a>
+                </div>
+            </div>
+            <div class="monsterInfo">
+                <div>
+                    <div>
+                        <label>Level</label>
+                        <input id="level1" value="200" inputmode="decimal">
+                    </div>
+                </div>
+            </div>
+            <div class="monsterStats">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Character Base Stats</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">
+                                <label>HP</label>
+                            </th>
+                            <td>
+                                <input id="charHP1" value="120" inputmode="decimal">
+                            </td>
+                            <td>
+                                <span id="charRealHP1">105</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">
+                                <label>M. Attack</label>
+                            </th>
+                            <td>
+                                <input id="charMATK1" value="100" inputmode="decimal">
+                            </td>
+                            <td>
+                                <span id="charRealMATK1">105</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">
+                                <label>M. Defense</label>
+                            </th>
+                            <td>
+                                <input id="charMDEF1" value="100" inputmode="decimal">
+                            </td>
+                            <td>
+                                <span id="charRealMDEF1">105</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">
+                                <label>R. Attack</label>
+                            </th>
+                            <td>
+                                <input id="charRATK1" value="100" inputmode="decimal">
+                            </td>
+                            <td>
+                                <span id="charRealRATK1">105</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">
+                                <label>R. Defense</label>
+                            </th>
+                            <td>
+                                <input id="charRDEF1" value="100" inputmode="decimal">
+                            </td>
+                            <td>
+                                <span id="charRealRDEF1">105</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">
+                                <label>Speed</label>
+                            </th>
+                            <td>
+                                <input id="charSPEED1" value="100" inputmode="decimal">
+                            </td>
+                            <td>
+                                <span id="charRealSPEED1">105</span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="monsterDropdown">
+                <button onclick="monsterDropdownScript1()" id="monDrop1" class="monsterDropdownButton monsterDropdownButton1">Magikrab</button>
+                <div id="monDropdown1" class="monsterDropdownContent monsterDropdownContent1">
+                    <a id="Magikrab" onclick="selectMonsterScript1()">Magikrab</a>
+                    <a id="Springheel" onclick="selectMonsterScript1()">Springheel</a>
+                    <a id="Hopskin" onclick="selectMonsterScript1()">Hopskin</a>
+                    <a id="Ripterra" onclick="selectMonsterScript1()">Ripterra</a>
+                    <a id="Snoopin" onclick="selectMonsterScript1()">Snoopin</a>
+                    <a id="Scampire" onclick="selectMonsterScript1()">Scampire</a>
+                    <a id="Carniviper" onclick="selectMonsterScript1()">Carniviper</a>
+                    <a id="Masquerattle" onclick="selectMonsterScript1()">Masquerattle</a>
+                    <a id="Jormungold" onclick="selectMonsterScript1()">Jormungold</a>
+                    <a id="Mardiusa" onclick="selectMonsterScript1()">Mardiusa</a>
+                    <a id="Aeroboros" onclick="selectMonsterScript1()">Aeroboros</a>
+                    <a id="Traffikrab" onclick="selectMonsterScript1()">Traffikrab</a>
+                    <a id="Weevilite" onclick="selectMonsterScript1()">Weevilite</a>
+                    <a id="Lobstacle" onclick="selectMonsterScript1()">Lobstacle</a>
+                    <a id="Candevil" onclick="selectMonsterScript1()">Candevil</a>
+                    <a id="Malchemy" onclick="selectMonsterScript1()">Malchemy</a>
+                    <a id="Miasmodeus" onclick="selectMonsterScript1()">Miasmodeus</a>
+                    <a id="Vendemon" onclick="selectMonsterScript1()">Vendemon</a>
+                    <a id="Gumbaal" onclick="selectMonsterScript1()">Gumbaal</a>
+                    <a id="Bansheep" onclick="selectMonsterScript1()">Bansheep</a>
+                    <a id="Wooltergeist" onclick="selectMonsterScript1()">Wooltergeist</a>
+                    <a id="Ramtasm" onclick="selectMonsterScript1()">Ramtasm</a>
+                    <a id="Zombleat" onclick="selectMonsterScript1()">Zombleat</a>
+                    <a id="Capricorpse" onclick="selectMonsterScript1()">Capricorpse</a>
+                    <a id="Sirenade" onclick="selectMonsterScript1()">Sirenade</a>
+                    <a id="Decibelle" onclick="selectMonsterScript1()">Decibelle</a>
+                    <a id="Dandylion" onclick="selectMonsterScript1()">Dandylion</a>
+                    <a id="Blossomaw" onclick="selectMonsterScript1()">Blossomaw</a>
+                    <a id="Macabra" onclick="selectMonsterScript1()">Macabra</a>
+                    <a id="Folklord" onclick="selectMonsterScript1()">Folklord</a>
+                    <a id="Dominoth" onclick="selectMonsterScript1()">Dominoth</a>
+                    <a id="Wingloom" onclick="selectMonsterScript1()">Wingloom</a>
+                    <a id="Mothmanic" onclick="selectMonsterScript1()">Mothmanic</a>
+                    <a id="Tokusect" onclick="selectMonsterScript1()">Tokusect</a>
+                    <a id="Squirey" onclick="selectMonsterScript1()">Squirey</a>
+                    <a id="Manispear" onclick="selectMonsterScript1()">Manispear</a>
+                    <a id="Palangolin" onclick="selectMonsterScript1()">Palangolin</a>
+                    <a id="Kittelly" onclick="selectMonsterScript1()">Kittelly</a>
+                    <a id="Cat-5" onclick="selectMonsterScript1()">Cat-5</a>
+                    <a id="Puppercut" onclick="selectMonsterScript1()">Puppercut</a>
+                    <a id="Southpaw" onclick="selectMonsterScript1()">Southpaw</a>
+                    <a id="Bulletino" onclick="selectMonsterScript1()">Bulletino</a>
+                    <a id="Velocirifle" onclick="selectMonsterScript1()">Velocirifle</a>
+                    <a id="Artillerex" onclick="selectMonsterScript1()">Artillerex</a>
+                    <a id="Gearyu" onclick="selectMonsterScript1()">Gearyu</a>
+                    <a id="Diveal" onclick="selectMonsterScript1()">Diveal</a>
+                    <a id="Scubalrus" onclick="selectMonsterScript1()">Scubalrus</a>
+                    <a id="Nevermort" onclick="selectMonsterScript1()">Nevermort</a>
+                    <a id="Apocrowlypse" onclick="selectMonsterScript1()">Apocrowlypse</a>
+                    <a id="Clocksley" onclick="selectMonsterScript1()">Clocksley</a>
+                    <a id="Robindam" onclick="selectMonsterScript1()">Robindam</a>
+                    <a id="Thwackalope" onclick="selectMonsterScript1()">Thwackalope</a>
+                    <a id="Allseer" onclick="selectMonsterScript1()">Allseer</a>
+                    <a id="Khufo" onclick="selectMonsterScript1()">Khufo</a>
+                    <a id="Triphinx" onclick="selectMonsterScript1()">Triphinx</a>
+                    <a id="Braxsuit" onclick="selectMonsterScript1()">Braxsuit</a>
+                    <a id="Flapwoods" onclick="selectMonsterScript1()">Flapwoods</a>
+                    <a id="Sanzatime" onclick="selectMonsterScript1()">Sanzatime</a>
+                    <a id="Fortiwinx" onclick="selectMonsterScript1()">Fortiwinx</a>
+                    <a id="Salamagus" onclick="selectMonsterScript1()">Salamagus</a>
+                    <a id="Pyromeleon" onclick="selectMonsterScript1()">Pyromeleon</a>
+                    <a id="Muskrateer" onclick="selectMonsterScript1()">Muskrateer</a>
+                    <a id="Ratcousel" onclick="selectMonsterScript1()">Ratcousel</a>
+                    <a id="Padpole" onclick="selectMonsterScript1()">Padpole</a>
+                    <a id="Frillypad" onclick="selectMonsterScript1()">Frillypad</a>
+                    <a id="Liligator" onclick="selectMonsterScript1()">Liligator</a>
+                    <a id="Elfless" onclick="selectMonsterScript1()">Elfless</a>
+                    <a id="Grampus" onclick="selectMonsterScript1()">Grampus</a>
+                    <a id="Faerious" onclick="selectMonsterScript1()">Faerious</a>
+                    <a id="Brushroom" onclick="selectMonsterScript1()">Brushroom</a>
+                    <a id="Fungogh" onclick="selectMonsterScript1()">Fungogh</a>
+                    <a id="Boltam" onclick="selectMonsterScript1()">Boltam</a>
+                    <a id="Plasmantler" onclick="selectMonsterScript1()">Plasmantler</a>
+                    <a id="Busheye" onclick="selectMonsterScript1()">Busheye</a>
+                    <a id="Huntorch" onclick="selectMonsterScript1()">Huntorch</a>
+                    <a id="Hedgeherne" onclick="selectMonsterScript1()">Hedgeherne</a>
+                    <a id="Terracooka" onclick="selectMonsterScript1()">Terracooka</a>
+                    <a id="Coaldron" onclick="selectMonsterScript1()">Coaldron</a>
+                    <a id="Stardigrade" onclick="selectMonsterScript1()">Stardigrade</a>
+                    <a id="Galagor" onclick="selectMonsterScript1()">Galagor</a>
+                    <a id="Mascotoy" onclick="selectMonsterScript1()">Mascotoy</a>
+                    <a id="Mascotorn" onclick="selectMonsterScript1()">Mascotorn</a>
+                    <a id="Binvader" onclick="selectMonsterScript1()">Binvader</a>
+                    <a id="Binterloper" onclick="selectMonsterScript1()">Binterloper</a>
+                    <a id="Twirligig" onclick="selectMonsterScript1()">Twirligig</a>
+                    <a id="Kirikuri" onclick="selectMonsterScript1()">Kirikuri</a>
+                    <a id="Jellyton" onclick="selectMonsterScript1()">Jellyton</a>
+                    <a id="Spirouette" onclick="selectMonsterScript1()">Spirouette</a>
+                    <a id="Regensea" onclick="selectMonsterScript1()">Regensea</a>
+                    <a id="Jumpkin" onclick="selectMonsterScript1()">Jumpkin</a>
+                    <a id="Beanstalker" onclick="selectMonsterScript1()">Beanstalker</a>
+                    <a id="Draculeaf" onclick="selectMonsterScript1()">Draculeaf</a>
+                    <a id="Pawndead" onclick="selectMonsterScript1()">Pawndead</a>
+                    <a id="Skelevangelist" onclick="selectMonsterScript1()">Skelevangelist</a>
+                    <a id="Kingrave" onclick="selectMonsterScript1()">Kingrave</a>
+                    <a id="Queenyx" onclick="selectMonsterScript1()">Queenyx</a>
+                    <a id="Burnace" onclick="selectMonsterScript1()">Burnace</a>
+                    <a id="Smogmagog" onclick="selectMonsterScript1()">Smogmagog</a>
+                    <a id="Faucetear" onclick="selectMonsterScript1()">Faucetear</a>
+                    <a id="Fountess" onclick="selectMonsterScript1()">Fountess</a>
+                    <a id="Cluckabilly" onclick="selectMonsterScript1()">Cluckabilly</a>
+                    <a id="Rockertrice" onclick="selectMonsterScript1()">Rockertrice</a>
+                    <a id="Pondwalker" onclick="selectMonsterScript1()">Pondwalker</a>
+                    <a id="Sharktanker" onclick="selectMonsterScript1()">Sharktanker</a>
+                    <a id="Pombomb" onclick="selectMonsterScript1()">Pombomb</a>
+                    <a id="Spitzfyre" onclick="selectMonsterScript1()">Spitzfyre</a>
+                    <a id="Icepeck" onclick="selectMonsterScript1()">Icepeck</a>
+                    <a id="Cryoshear" onclick="selectMonsterScript1()">Cryoshear</a>
+                    <a id="Sparktan" onclick="selectMonsterScript1()">Sparktan</a>
+                    <a id="Zeustrike" onclick="selectMonsterScript1()">Zeustrike</a>
+                    <a id="Kuneko" onclick="selectMonsterScript1()">Kuneko</a>
+                    <a id="Shining Kuneko" onclick="selectMonsterScript1()">Shining Kuneko</a>
+                    <a id="Djinn Entonic" onclick="selectMonsterScript1()">Djinn Entonic</a>
+                    <a id="Arkidd" onclick="selectMonsterScript1()">Arkidd</a>
+                    <a id="Undyin" onclick="selectMonsterScript1()">Undyin</a>
+                    <a id="Spooki-onna" onclick="selectMonsterScript1()">Spooki-onna</a>
+                    <a id="Khepri" onclick="selectMonsterScript1()">Khepri</a>
+                    <a id="Averevoir" onclick="selectMonsterScript1()">Averevoir</a>
+                    <a id="Glaistain" onclick="selectMonsterScript1()">Glaistain</a>
+                    <a id="Miss Mimic" onclick="selectMonsterScript1()">Miss Mimic</a>
+                    <a id="Anathema" onclick="selectMonsterScript1()">Anathema</a>
+                    <a id="Pinbolt" onclick="selectMonsterScript1()">Pinbolt</a>
+                    <a id="Diveberg" onclick="selectMonsterScript1()">Diveberg</a>
+                    <a id="Adeptile" onclick="selectMonsterScript1()">Adeptile</a>
+                    <a id="Trapwurm" onclick="selectMonsterScript1()">Trapwurm</a>
+                    <a id="Wyrmaw" onclick="selectMonsterScript1()">Wyrmaw</a>
+                    <a id="Ferriclaw" onclick="selectMonsterScript1()">Ferriclaw</a>
+                    <a id="Auriclaw" onclick="selectMonsterScript1()">Auriclaw</a>
+                    <a id="Picksie" onclick="selectMonsterScript1()">Picksie</a>
+                    <a id="Pawper" onclick="selectMonsterScript1()">Pawper</a>
+                    <a id="Pawprince" onclick="selectMonsterScript1()">Pawprince</a>
+                    <a id="Amphare" onclick="selectMonsterScript1()">Amphare</a>
+                    <a id="Blunderbusk" onclick="selectMonsterScript1()">Blunderbusk</a>
+                    <a id="Charlequin" onclick="selectMonsterScript1()">Charlequin</a>
+                    <a id="Fragliacci" onclick="selectMonsterScript1()">Fragliacci</a>
+                    <a id="Hauntome" onclick="selectMonsterScript1()">Hauntome</a>
+                    <a id="Lapacitor" onclick="selectMonsterScript1()">Lapacitor</a>
+                    <a id="Littlered" onclick="selectMonsterScript1()">Littlered</a>
+                    <a id="Majortom" onclick="selectMonsterScript1()">Majortom</a>
+                    <a id="Minortom" onclick="selectMonsterScript1()">Minortom</a>
+                    <a id="Minosteam" onclick="selectMonsterScript1()">Minosteam</a>
+                    <a id="Rosehood" onclick="selectMonsterScript1()">Rosehood</a>
+                    <a id="Scarleteeth" onclick="selectMonsterScript1()">Scarleteeth</a>
+                    <a id="Umbrahella" onclick="selectMonsterScript1()">Umbrahella</a>
+                </div>
+            </div>
+            <div class="mosnterInfo">
+                <div>
+                    <label>Type</label>
+                    <select id="monType1">
+                        <option>Typeless</option>
+                        <option>Beast</option>
+                        <option>Air</option>
+                        <option selected>Astral</option>
+                        <option>Earth</option>
+                        <option>Fire</option>
+                        <option>Ice</option>
+                        <option>Lighting</option>
+                        <option>Metal</option>
+                        <option>Plant</option>
+                        <option>Plastic</option>
+                        <option>Poison</option>
+                        <option>Water</option>
+                        <option>Glass</option>
+                        <option>Glitter</option>
+                    </select>
+                </div>
+                <div>
+                    <label>Grade</label>
+                    <select id="monGrade1" onchange="updateMonStat1(); updateComStat1()">
+                        <option>0</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+            </div>
+            <div class="monsterStats">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Monster Base Stats</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">
+                                <label>HP</label>
+                            </th>
+                            <td>
+                                <input id="monHP1" value="105" inputmode="decimal">
+                            </td>
+                            <td>
+                                <span id="monRealHP1">105</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">
+                                <label>M. Attack</label>
+                            </th>
+                            <td>
+                                <input id="monMATK1" value="160" inputmode="decimal">
+                            </td>
+                            <td>
+                                <span id="monRealMATK1">160</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">
+                                <label>M. Defense</label>
+                            </th>
+                            <td>
+                                <input id="monMDEF1" value="105" inputmode="decimal">
+                            </td>
+                            <td>
+                                <span id="monRealMDEF1">105</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">
+                                <label>R. Attack</label>
+                            </th>
+                            <td>
+                                <input id="monRATK1" value="160" inputmode="decimal">
+                            </td>
+                            <td>
+                                <span id="monRealRATK1">160</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">
+                                <label>R. Defense</label>
+                            </th>
+                            <td>
+                                <input id="monRDEF1" value="150" inputmode="decimal">
+                            </td>
+                            <td>
+                                <span id="monRealRDEF1">150</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">
+                                <label>Speed</label>
+                            </th>
+                            <td>
+                                <input id="monSPEED1" value="120" inputmode="decimal">
+                            </td>
+                            <td>
+                                <span id="monRealSPEED1">120</span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="monsterStats">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Combined Stats</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">
+                                <label>HP</label>
+                            </th>
+                            <td>
+                                <span id="comHP1">592</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">
+                                <label>M. Attack</label>
+                            </th>
+                            <td>
+                                <span id="comMATK1">750</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">
+                                <label>M. Defense</label>
+                            </th>
+                            <td>
+                                <span id="comMDEF1">494</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">
+                                <label>R. Attack</label>
+                            </th>
+                            <td>
+                                <span id="comRATK1">750</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">
+                                <label>R. Defense</label>
+                            </th>
+                            <td>
+                                <span id="comRDEF1">704</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">
+                                <label>Speed</label>
+                            </th>
+                            <td>
+                                <span id="comSPEED1">564</span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="moveDropdown">
+                <button onclick="moveDropdownScript1_1()" id="moveDrop1_1" class="monsterDropdownButton moveDropdownButton1_1">Empty</button>
+                <div id="moveDropdown1_1" class="monsterDropdownContent moveDropdownContent1_1">
+                    <a id="Empty" onclick="selectMoveScript1_1()">Empty</a>
+                    <a id="Abramacabra" onclick="selectMoveScript1_1()">Abramacabra</a>
+                </div>
+            </div>
+        </div>
+        <div class="box"></div>
+        <div class="box" style="margin-right: auto;">
+            <legend class="headerbar">Monster 2</legend>
+        </div>
+    </div>
+</body>
+</html>
+<script src="CBDamageCalc.js"></script>

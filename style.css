@@ -3,7 +3,14 @@
     src: url(fonts/FreePixel.ttf);
 }
 body {
+    margin: 0;
+    margin-bottom: 10px;
     background-color: rgb(78, 88, 68);
+}
+.topbar {
+    height: 65px;
+    background-color: #000000;
+    display: block;
 }
 .topbox {
     background-color: rgb(40, 45, 34);
@@ -30,8 +37,18 @@ body {
     padding: 0;
     margin: auto;
     display: block;
+    text-align: center;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+}
+.bottombox a {
+    color: white;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2%;
+    display: inline-flex;
+    font-size:smaller;
+    text-decoration: none;
 }
 .mainbox {
     background-image: linear-gradient(rgb(254,254,254), rgb(245,245,245), rgb(234,234,234), rgb(184,184,184));
@@ -43,7 +60,16 @@ body {
     
 }
 .subbox {
-    background-color: transparent;
+    background-color: #c9c9c8;
     border: 1px solid #000000;
     border-radius: 10px;
+}
+.social {
+    margin-left: 1240px;
+}
+.social img{
+    width: 40px;
+    opacity: 50%;
+    vertical-align: middle;
+    
 }

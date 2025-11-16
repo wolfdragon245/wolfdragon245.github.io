@@ -1,0 +1,3425 @@
+{
+    "characters":{
+        "Player":{
+            "hp": 120,
+            "matk": 100,
+            "mdef": 100,
+            "ratk": 100,
+            "rdef": 100,
+            "speed": 100
+        },
+        "Kayleigh":{
+            "hp": 144,
+            "matk": 100,
+            "mdef": 100,
+            "ratk": 100,
+            "rdef": 100,
+            "speed": 100
+        },
+        "Eugene":{
+
+            "hp": 120,
+            "matk": 100,
+            "mdef": 100,
+            "ratk": 100,
+            "rdef": 120,
+            "speed": 100
+        },
+        "Meredith":{
+            "hp": 120,
+            "matk": 120,
+            "mdef": 100,
+            "ratk": 100,
+            "rdef": 100,
+            "speed": 100
+        },
+        "Felix":{
+            "hp": 120,
+            "matk": 100,
+            "mdef": 120,
+            "ratk": 100,
+            "rdef": 100,
+            "speed": 100
+        },
+        "Viola":{
+            "hp": 120,
+            "matk": 100,
+            "mdef": 100,
+            "ratk": 120,
+            "rdef": 100,
+            "speed": 100
+        },
+        "Barkley":{
+            "hp": 120,
+            "matk": 100,
+            "mdef": 100,
+            "ratk": 100,
+            "rdef": 100,
+            "speed": 120
+        },
+        "Sunny":{
+            "hp": 110,
+            "matk": 115,
+            "mdef": 110,
+            "ratk": 105,
+            "rdef": 95,
+            "speed": 105
+        },
+        "Wild Monster":{
+            "hp": 100,
+            "matk": 100,
+            "mdef": 100,
+            "ratk": 100,
+            "rdef": 100,
+            "speed": 100
+        },
+        "NPC":{
+            "hp": 120,
+            "matk": 100,
+            "mdef": 100,
+            "ratk": 100,
+            "rdef": 100,
+            "speed": 100
+        },
+        "Ranger Captain":{
+            "hp": 240,
+            "matk": 100,
+            "mdef": 100,
+            "ratk": 100,
+            "rdef": 100,
+            "speed": 100
+        }
+    },
+    "monsters":{
+        "Magikrab":{
+            "type": "Astral",
+            "hp": 105,
+            "matk": 160,
+            "mdef": 105,
+            "ratk": 160,
+            "rdef": 150,
+            "speed": 120
+        },
+        "Springheel":{
+            "type": "Beast",
+            "hp": 90,
+            "matk": 130,
+            "mdef": 80,
+            "ratk": 80,
+            "rdef": 90,
+            "speed": 130
+        },
+        "Hopskin":{
+            "type": "Beast",
+            "hp": 90,
+            "matk": 170,
+            "mdef": 100,
+            "ratk": 90,
+            "rdef": 100,
+            "speed": 150
+        },
+        "Ripterra":{
+            "type": "Beast",
+            "hp": 120,
+            "matk": 200,
+            "mdef": 100,
+            "ratk": 90,
+            "rdef": 120,
+            "speed": 170
+        },
+        "Snoopin":{
+            "type": "Beast",
+            "hp": 90,
+            "matk": 160,
+            "mdef": 80,
+            "ratk": 150,
+            "rdef": 90,
+            "speed": 130
+        },
+        "Scampire":{
+            "type": "Beast",
+            "hp": 120,
+            "matk": 160,
+            "mdef": 80,
+            "ratk": 180,
+            "rdef": 90,
+            "speed": 170
+        },
+        "Carniviper":{
+            "type": "Poison",
+            "hp": 60,
+            "matk": 120,
+            "mdef": 80,
+            "ratk": 120,
+            "rdef": 80,
+            "speed": 140
+        },
+        "Masquerattle":{
+            "type": "Poison",
+            "hp": 90,
+            "matk": 140,
+            "mdef": 80,
+            "ratk": 140,
+            "rdef": 90,
+            "speed": 160
+        },
+        "Jormungold":{
+            "type": "Poison",
+            "hp": 100,
+            "matk": 155,
+            "mdef": 100,
+            "ratk": 155,
+            "rdef": 100,
+            "speed": 190
+        },
+        "Mardiusa":{
+            "type": "Poison",
+            "hp": 130,
+            "matk": 160,
+            "mdef": 100,
+            "ratk": 120,
+            "rdef": 130,
+            "speed": 160
+        },
+        "Aeroboros":{
+            "type": "Air",
+            "hp": 190,
+            "matk": 30,
+            "mdef": 100,
+            "ratk": 160,
+            "rdef": 160,
+            "speed": 160
+        },
+        "Traffikrab":{
+            "type": "Plastic",
+            "hp": 80,
+            "matk": 120,
+            "mdef": 80,
+            "ratk": 120,
+            "rdef": 110,
+            "speed": 90
+        },
+        "Weevilite":{
+            "type": "Plastic",
+            "hp": 120,
+            "matk": 120,
+            "mdef": 120,
+            "ratk": 160,
+            "rdef": 120,
+            "speed": 160
+        },
+        "Lobstacle":{
+            "type": "Plastic",
+            "hp": 150,
+            "matk": 120,
+            "mdef": 160,
+            "ratk": 120,
+            "rdef": 160,
+            "speed": 90
+        },
+        "Candevil":{
+            "type": "Beast",
+            "hp": 115,
+            "matk": 110,
+            "mdef": 100,
+            "ratk": 110,
+            "rdef": 105,
+            "speed": 100
+        },
+        "Malchemy":{
+            "type": "Poison",
+            "hp": 120,
+            "matk": 125,
+            "mdef": 110,
+            "ratk": 145,
+            "rdef": 110,
+            "speed": 130
+        },
+        "Miasmodeus":{
+            "type": "Poison",
+            "hp": 130,
+            "matk": 150,
+            "mdef": 120,
+            "ratk": 170,
+            "rdef": 120,
+            "speed": 150
+        },
+        "Vendemon":{
+            "type": "Metal",
+            "hp": 130,
+            "matk": 110,
+            "mdef": 130,
+            "ratk": 120,
+            "rdef": 130,
+            "speed": 120
+        },
+        "Gumbaal":{
+            "type": "Metal",
+            "hp": 150,
+            "matk": 110,
+            "mdef": 160,
+            "ratk": 130,
+            "rdef": 160,
+            "speed": 130
+        },
+        "Bansheep":{
+            "type": "Beast",
+            "hp": 115,
+            "matk": 110,
+            "mdef": 105,
+            "ratk": 110,
+            "rdef": 100,
+            "speed": 100
+        },
+        "Wooltergeist":{
+            "type": "Astral",
+            "hp": 120,
+            "matk": 145,
+            "mdef": 110,
+            "ratk": 125,
+            "rdef": 110,
+            "speed": 130
+        },
+        "Ramtasm":{
+            "type": "Astral",
+            "hp": 130,
+            "matk": 170,
+            "mdef": 120,
+            "ratk": 150,
+            "rdef": 120,
+            "speed": 150
+        },
+        "Zombleat":{
+            "type": "Earth",
+            "hp": 130,
+            "matk": 130,
+            "mdef": 130,
+            "ratk": 110,
+            "rdef": 130,
+            "speed": 110
+        },
+        "Capricorpse":{
+            "type": "Earth",
+            "hp": 160,
+            "matk": 140,
+            "mdef": 160,
+            "ratk": 110,
+            "rdef": 160,
+            "speed": 110
+        },
+        "Sirenade":{
+            "type": "Air",
+            "hp": 110,
+            "matk": 70,
+            "mdef": 80,
+            "ratk": 130,
+            "rdef": 120,
+            "speed": 90
+        },
+        "Decibelle":{
+            "type": "Air",
+            "hp": 135,
+            "matk": 100,
+            "mdef": 110,
+            "ratk": 170,
+            "rdef": 160,
+            "speed": 125
+        },
+        "Dandylion":{
+            "type": "Plant",
+            "hp": 120,
+            "matk": 80,
+            "mdef": 120,
+            "ratk": 100,
+            "rdef": 120,
+            "speed": 60
+        },
+        "Blossomaw":{
+            "type": "Plant",
+            "hp": 160,
+            "matk": 100,
+            "mdef": 160,
+            "ratk": 130,
+            "rdef": 160,
+            "speed": 90
+        },
+        "Macabra":{
+            "type": "Beast",
+            "hp": 140,
+            "matk": 120,
+            "mdef": 60,
+            "ratk": 100,
+            "rdef": 100,
+            "speed": 120
+        },
+        "Folklord":{
+            "type": "Beast",
+            "hp": 140,
+            "matk": 135,
+            "mdef": 135,
+            "ratk": 100,
+            "rdef": 120,
+            "speed": 120
+        },
+        "Dominoth":{
+            "type": "Air",
+            "hp": 100,
+            "matk": 100,
+            "mdef": 100,
+            "ratk": 100,
+            "rdef": 120,
+            "speed": 80
+        },
+        "Wingloom":{
+            "type": "Lightning",
+            "hp": 120,
+            "matk": 100,
+            "mdef": 120,
+            "ratk": 100,
+            "rdef": 120,
+            "speed": 90
+        },
+        "Mothmanic":{
+            "type": "Lightning",
+            "hp": 130,
+            "matk": 110,
+            "mdef": 120,
+            "ratk": 180,
+            "rdef": 140,
+            "speed": 120
+        },
+        "Tokusect":{
+            "type": "Air",
+            "hp": 120,
+            "matk": 170,
+            "mdef": 120,
+            "ratk": 100,
+            "rdef": 120,
+            "speed": 170
+        },
+        "Squirey":{
+            "type": "Beast",
+            "hp": 90,
+            "matk": 110,
+            "mdef": 110,
+            "ratk": 100,
+            "rdef": 90,
+            "speed": 100
+        },
+        "Manispear":{
+            "type": "Metal",
+            "hp": 110,
+            "matk": 120,
+            "mdef": 170,
+            "ratk": 100,
+            "rdef": 150,
+            "speed": 100
+        },
+        "Palangolin":{
+            "type": "Metal",
+            "hp": 150,
+            "matk": 120,
+            "mdef": 120,
+            "ratk": 100,
+            "rdef": 100,
+            "speed": 160
+        },
+        "Kittelly":{
+            "type": "Lightning",
+            "hp": 100,
+            "matk": 110,
+            "mdef": 90,
+            "ratk": 110,
+            "rdef": 90,
+            "speed": 100
+        },
+        "Cat-5":{
+            "type": "Lightning",
+            "hp": 150,
+            "matk": 160,
+            "mdef": 100,
+            "ratk": 120,
+            "rdef": 120,
+            "speed": 150
+        },
+        "Puppercut":{
+            "type": "Metal",
+            "hp": 100,
+            "matk": 120,
+            "mdef": 110,
+            "ratk": 80,
+            "rdef": 80,
+            "speed": 110
+        },
+        "Southpaw":{
+            "type": "Metal",
+            "hp": 130,
+            "matk": 160,
+            "mdef": 140,
+            "ratk": 110,
+            "rdef": 110,
+            "speed": 150
+        },
+        "Bulletino":{
+            "type": "Fire",
+            "hp": 80,
+            "matk": 70,
+            "mdef": 70,
+            "ratk": 100,
+            "rdef": 70,
+            "speed": 200
+        },
+        "Velocirifle":{
+            "type": "Fire",
+            "hp": 100,
+            "matk": 100,
+            "mdef": 100,
+            "ratk": 140,
+            "rdef": 100,
+            "speed": 160
+        },
+        "Artillerex":{
+            "type": "Fire",
+            "hp": 110,
+            "matk": 170,
+            "mdef": 120,
+            "ratk": 170,
+            "rdef": 110,
+            "speed": 120
+        },
+        "Gearyu":{
+            "type": "Metal",
+            "hp": 110,
+            "matk": 120,
+            "mdef": 170,
+            "ratk": 170,
+            "rdef": 110,
+            "speed": 120
+        },
+        "Diveal":{
+            "type": "Water",
+            "hp": 100,
+            "matk": 100,
+            "mdef": 125,
+            "ratk": 125,
+            "rdef": 100,
+            "speed": 50
+        },
+        "Scubalrus":{
+            "type": "Water",
+            "hp": 130,
+            "matk": 125,
+            "mdef": 160,
+            "ratk": 160,
+            "rdef": 125,
+            "speed": 100
+        },
+        "Nevermort":{
+            "type": "Poison",
+            "hp": 150,
+            "matk": 70,
+            "mdef": 75,
+            "ratk": 80,
+            "rdef": 75,
+            "speed": 150
+        },
+        "Apocrowlypse":{
+            "type": "Poison",
+            "hp": 160,
+            "matk": 120,
+            "mdef": 120,
+            "ratk": 120,
+            "rdef": 120,
+            "speed": 160
+        },
+        "Clocksley":{
+            "type": "Plastic",
+            "hp": 80,
+            "matk": 80,
+            "mdef": 80,
+            "ratk": 150,
+            "rdef": 130,
+            "speed": 80
+        },
+        "Robindam":{
+            "type": "Plastic",
+            "hp": 110,
+            "matk": 110,
+            "mdef": 110,
+            "ratk": 200,
+            "rdef": 150,
+            "speed": 120
+        },
+        "Thwackalope":{
+            "type": "Air",
+            "hp": 110,
+            "matk": 180,
+            "mdef": 110,
+            "ratk": 110,
+            "rdef": 110,
+            "speed": 180
+        },
+        "Allseer":{
+            "type": "Metal",
+            "hp": 100,
+            "matk": 50,
+            "mdef": 120,
+            "ratk": 150,
+            "rdef": 80,
+            "speed": 100
+        },
+        "Khufo":{
+            "type": "Astral",
+            "hp": 120,
+            "matk": 160,
+            "mdef": 140,
+            "ratk": 160,
+            "rdef": 100,
+            "speed": 120
+        },
+        "Triphinx":{
+            "type": "Metal",
+            "hp": 140,
+            "matk": 50,
+            "mdef": 140,
+            "ratk": 190,
+            "rdef": 140,
+            "speed": 140
+        },
+        "Braxsuit":{
+            "type": "Air",
+            "hp": 100,
+            "matk": 100,
+            "mdef": 70,
+            "ratk": 100,
+            "rdef": 90,
+            "speed": 140
+        },
+        "Flapwoods":{
+            "type": "Air",
+            "hp": 140,
+            "matk": 140,
+            "mdef": 100,
+            "ratk": 140,
+            "rdef": 100,
+            "speed": 180
+        },
+        "Sanzatime":{
+            "type": "Earth",
+            "hp": 100,
+            "matk": 120,
+            "mdef": 120,
+            "ratk": 100,
+            "rdef": 110,
+            "speed": 50
+        },
+        "Fortiwinx":{
+            "type": "Earth",
+            "hp": 130,
+            "matk": 165,
+            "mdef": 155,
+            "ratk": 130,
+            "rdef": 140,
+            "speed": 80
+        },
+        "Salamagus":{
+            "type": "Fire",
+            "hp": 100,
+            "matk": 50,
+            "mdef": 80,
+            "ratk": 150,
+            "rdef": 120,
+            "speed": 100
+        },
+        "Pyromeleon":{
+            "type": "Fire",
+            "hp": 150,
+            "matk": 60,
+            "mdef": 100,
+            "ratk": 200,
+            "rdef": 150,
+            "speed": 140
+        },
+        "Muskrateer":{
+            "type": "Beast",
+            "hp": 80,
+            "matk": 100,
+            "mdef": 80,
+            "ratk": 80,
+            "rdef": 80,
+            "speed": 120
+        },
+        "Ratcousel":{
+            "type": "Plastic",
+            "hp": 136,
+            "matk": 136,
+            "mdef": 136,
+            "ratk": 136,
+            "rdef": 136,
+            "speed": 120
+        },
+        "Padpole":{
+            "type": "Water",
+            "hp": 120,
+            "matk": 120,
+            "mdef": 80,
+            "ratk": 80,
+            "rdef": 80,
+            "speed": 120
+        },
+        "Frillypad":{
+            "type": "Water",
+            "hp": 140,
+            "matk": 180,
+            "mdef": 100,
+            "ratk": 100,
+            "rdef": 100,
+            "speed": 140
+        },
+        "Liligator":{
+            "type": "Water",
+            "hp": 150,
+            "matk": 200,
+            "mdef": 100,
+            "ratk": 100,
+            "rdef": 100,
+            "speed": 150
+        },
+        "Elfless":{
+            "type": "Ice",
+            "hp": 100,
+            "matk": 100,
+            "mdef": 100,
+            "ratk": 100,
+            "rdef": 100,
+            "speed": 100
+        },
+        "Grampus":{
+            "type": "Ice",
+            "hp": 160,
+            "matk": 150,
+            "mdef": 160,
+            "ratk": 100,
+            "rdef": 130,
+            "speed": 100
+        },
+        "Faerious":{
+            "type": "Ice",
+            "hp": 160,
+            "matk": 160,
+            "mdef": 100,
+            "ratk": 120,
+            "rdef": 100,
+            "speed": 160
+        },
+        "Brushroom":{
+            "type": "Plant",
+            "hp": 100,
+            "matk": 100,
+            "mdef": 100,
+            "ratk": 90,
+            "rdef": 110,
+            "speed": 100
+        },
+        "Fungogh":{
+            "type": "Plant",
+            "hp": 120,
+            "matk": 160,
+            "mdef": 160,
+            "ratk": 100,
+            "rdef": 140,
+            "speed": 120
+        },
+        "Boltam":{
+            "type": "Lightning",
+            "hp": 90,
+            "matk": 90,
+            "mdef": 90,
+            "ratk": 90,
+            "rdef": 90,
+            "speed": 150
+        },
+        "Plasmantler":{
+            "type": "Lightning",
+            "hp": 120,
+            "matk": 120,
+            "mdef": 120,
+            "ratk": 120,
+            "rdef": 160,
+            "speed": 160
+        },
+        "Busheye":{
+            "type": "Plant",
+            "hp": 150,
+            "matk": 90,
+            "mdef": 90,
+            "ratk": 90,
+            "rdef": 90,
+            "speed": 90
+        },
+        "Huntorch":{
+            "type": "Plant",
+            "hp": 150,
+            "matk": 140,
+            "mdef": 90,
+            "ratk": 90,
+            "rdef": 90,
+            "speed": 140
+        },
+        "Hedgeherne":{
+            "type": "Plant",
+            "hp": 150,
+            "matk": 140,
+            "mdef": 110,
+            "ratk": 140,
+            "rdef": 110,
+            "speed": 150
+        },
+        "Terracooka":{
+            "type": "Earth",
+            "hp": 100,
+            "matk": 110,
+            "mdef": 110,
+            "ratk": 100,
+            "rdef": 100,
+            "speed": 80
+        },
+        "Coaldron":{
+            "type": "Earth",
+            "hp": 160,
+            "matk": 110,
+            "mdef": 140,
+            "ratk": 160,
+            "rdef": 140,
+            "speed": 90
+        },
+        "Stardigrade":{
+            "type": "Astral",
+            "hp": 180,
+            "matk": 40,
+            "mdef": 150,
+            "ratk": 40,
+            "rdef": 150,
+            "speed": 40
+        },
+        "Galagor":{
+            "type": "Astral",
+            "hp": 200,
+            "matk": 60,
+            "mdef": 180,
+            "ratk": 150,
+            "rdef": 150,
+            "speed": 60
+        },
+        "Mascotoy":{
+            "type": "Plastic",
+            "hp": 120,
+            "matk": 150,
+            "mdef": 100,
+            "ratk": 80,
+            "rdef": 80,
+            "speed": 70
+        },
+        "Mascotorn":{
+            "type": "Plastic",
+            "hp": 150,
+            "matk": 200,
+            "mdef": 150,
+            "ratk": 100,
+            "rdef": 110,
+            "speed": 90
+        },
+        "Binvader":{
+            "type": "Metal",
+            "hp": 90,
+            "matk": 90,
+            "mdef": 140,
+            "ratk": 140,
+            "rdef": 90,
+            "speed": 50
+        },
+        "Binterloper":{
+            "type": "Plastic",
+            "hp": 110,
+            "matk": 110,
+            "mdef": 170,
+            "ratk": 170,
+            "rdef": 110,
+            "speed": 110
+        },
+        "Twirligig":{
+            "type": "Plant",
+            "hp": 190,
+            "matk": 50,
+            "mdef": 150,
+            "ratk": 50,
+            "rdef": 150,
+            "speed": 10
+        },
+        "Kirikuri":{
+            "type": "Plant",
+            "hp": 190,
+            "matk": 160,
+            "mdef": 150,
+            "ratk": 70,
+            "rdef": 110,
+            "speed": 120
+        },
+        "Jellyton":{
+            "type": "Poison",
+            "hp": 120,
+            "matk": 200,
+            "mdef": 130,
+            "ratk": 150,
+            "rdef": 90,
+            "speed": 110
+        },
+        "Spirouette":{
+            "type": "Water",
+            "hp": 140,
+            "matk": 70,
+            "mdef": 70,
+            "ratk": 110,
+            "rdef": 70,
+            "speed": 140
+        },
+        "Regensea":{
+            "type": "Water",
+            "hp": 170,
+            "matk": 115,
+            "mdef": 100,
+            "ratk": 145,
+            "rdef": 100,
+            "speed": 170
+        },
+        "Jumpkin":{
+            "type": "Plant",
+            "hp": 130,
+            "matk": 100,
+            "mdef": 100,
+            "ratk": 75,
+            "rdef": 100,
+            "speed": 140
+        },
+        "Beanstalker":{
+            "type": "Plant",
+            "hp": 140,
+            "matk": 185,
+            "mdef": 110,
+            "ratk": 100,
+            "rdef": 100,
+            "speed": 165
+        },
+        "Draculeaf":{
+            "type": "Plant",
+            "hp": 160,
+            "matk": 125,
+            "mdef": 125,
+            "ratk": 125,
+            "rdef": 125,
+            "speed": 140
+        },
+        "Pawndead":{
+            "type": "Earth",
+            "hp": 90,
+            "matk": 90,
+            "mdef": 90,
+            "ratk": 90,
+            "rdef": 90,
+            "speed": 90
+        },
+        "Skelevangelist":{
+            "type": "Earth",
+            "hp": 110,
+            "matk": 110,
+            "mdef": 110,
+            "ratk": 110,
+            "rdef": 110,
+            "speed": 110
+        },
+        "Kingrave":{
+            "type": "Earth",
+            "hp": 110,
+            "matk": 220,
+            "mdef": 110,
+            "ratk": 160,
+            "rdef": 110,
+            "speed": 110
+        },
+        "Queenyx":{
+            "type": "Earth",
+            "hp": 180,
+            "matk": 110,
+            "mdef": 110,
+            "ratk": 110,
+            "rdef": 110,
+            "speed": 200
+        },
+        "Burnace":{
+            "type": "Fire",
+            "hp": 100,
+            "matk": 60,
+            "mdef": 150,
+            "ratk": 100,
+            "rdef": 150,
+            "speed": 40
+        },
+        "Smogmagog":{
+            "type": "Fire",
+            "hp": 140,
+            "matk": 110,
+            "mdef": 195,
+            "ratk": 110,
+            "rdef": 195,
+            "speed": 50
+        },
+        "Faucetear":{
+            "type": "Water",
+            "hp": 90,
+            "matk": 100,
+            "mdef": 90,
+            "ratk": 110,
+            "rdef": 100,
+            "speed": 90
+        },
+        "Fountess":{
+            "type": "Water",
+            "hp": 125,
+            "matk": 135,
+            "mdef": 125,
+            "ratk": 155,
+            "rdef": 135,
+            "speed": 125
+        },
+        "Cluckabilly":{
+            "type": "Air",
+            "hp": 100,
+            "matk": 115,
+            "mdef": 90,
+            "ratk": 105,
+            "rdef": 90,
+            "speed": 100
+        },
+        "Rockertrice":{
+            "type": "Air",
+            "hp": 130,
+            "matk": 145,
+            "mdef": 130,
+            "ratk": 135,
+            "rdef": 130,
+            "speed": 130
+        },
+        "Pondwalker":{
+            "type": "Water",
+            "hp": 100,
+            "matk": 100,
+            "mdef": 100,
+            "ratk": 100,
+            "rdef": 100,
+            "speed": 100
+        },
+        "Sharktanker":{
+            "type": "Water",
+            "hp": 130,
+            "matk": 150,
+            "mdef": 140,
+            "ratk": 130,
+            "rdef": 140,
+            "speed": 110
+        },
+        "Pombomb":{
+            "type": "Fire",
+            "hp": 100,
+            "matk": 90,
+            "mdef": 90,
+            "ratk": 100,
+            "rdef": 120,
+            "speed": 100
+        },
+        "Spitzfyre":{
+            "type": "Fire",
+            "hp": 140,
+            "matk": 110,
+            "mdef": 110,
+            "ratk": 160,
+            "rdef": 150,
+            "speed": 130
+        },
+        "Icepeck":{
+            "type": "Ice",
+            "hp": 80,
+            "matk": 150,
+            "mdef": 80,
+            "ratk": 80,
+            "rdef": 80,
+            "speed": 190
+        },
+        "Cryoshear":{
+            "type": "Ice",
+            "hp": 150,
+            "matk": 180,
+            "mdef": 90,
+            "ratk": 90,
+            "rdef": 90,
+            "speed": 200
+        },
+        "Sparktan":{
+            "type": "Lightning",
+            "hp": 100,
+            "matk": 80,
+            "mdef": 90,
+            "ratk": 90,
+            "rdef": 90,
+            "speed": 150
+        },
+        "Zeustrike":{
+            "type": "Lightning",
+            "hp": 140,
+            "matk": 100,
+            "mdef": 110,
+            "ratk": 120,
+            "rdef": 130,
+            "speed": 200
+        },
+        "Kuneko":{
+            "type": "Air",
+            "hp": 115,
+            "matk": 115,
+            "mdef": 115,
+            "ratk": 115,
+            "rdef": 115,
+            "speed": 115
+        },
+        "Shining Kuneko":{
+            "type": "Astral",
+            "hp": 140,
+            "matk": 140,
+            "mdef": 140,
+            "ratk": 140,
+            "rdef": 140,
+            "speed": 140
+        },
+        "Djinn Entonic":{
+            "type": "Astral",
+            "hp": 150,
+            "matk": 100,
+            "mdef": 150,
+            "ratk": 150,
+            "rdef": 100,
+            "speed": 150
+        },
+        "Arkidd":{
+            "type": "Lightning",
+            "hp": 100,
+            "matk": 150,
+            "mdef": 100,
+            "ratk": 100,
+            "rdef": 100,
+            "speed": 250
+        },
+        "Undyin":{
+            "type": "Water",
+            "hp": 200,
+            "matk": 110,
+            "mdef": 110,
+            "ratk": 160,
+            "rdef": 110,
+            "speed": 110
+        },
+        "Spooki-onna":{
+            "type": "Ice",
+            "hp": 190,
+            "matk": 120,
+            "mdef": 130,
+            "ratk": 130,
+            "rdef": 130,
+            "speed": 100
+        },
+        "Khepri":{
+            "type": "Fire",
+            "hp": 100,
+            "matk": 1,
+            "mdef": 100,
+            "ratk": 300,
+            "rdef": 250,
+            "speed": 79
+        },
+        "Averevoir":{
+            "type": "Air",
+            "hp": 150,
+            "matk": 100,
+            "mdef": 150,
+            "ratk": 100,
+            "rdef": 150,
+            "speed": 190
+        },
+        "Glaistain":{
+            "type": "Glass",
+            "hp": 120,
+            "matk": 160,
+            "mdef": 90,
+            "ratk": 160,
+            "rdef": 90,
+            "speed": 220
+        },
+        "Miss Mimic":{
+            "type": "Metal",
+            "hp": 110,
+            "matk": 210,
+            "mdef": 110,
+            "ratk": 110,
+            "rdef": 110,
+            "speed": 150
+        },
+        "Anathema":{
+            "type": "Beast",
+            "hp": 150,
+            "matk": 155,
+            "mdef": 140,
+            "ratk": 140,
+            "rdef": 130,
+            "speed": 85
+        },
+        "Pinbolt":{
+            "type": "Lightning",
+            "hp": 120,
+            "matk": 120,
+            "mdef": 105,
+            "ratk": 160,
+            "rdef": 105,
+            "speed": 190
+        },
+        "Diveberg":{
+            "type": "Ice",
+            "hp": 100,
+            "matk": 160,
+            "mdef": 150,
+            "ratk": 125,
+            "rdef": 135,
+            "speed": 130
+        },
+        "Adeptile":{
+            "type": "Astral",
+            "hp": 110,
+            "matk": 80,
+            "mdef": 180,
+            "ratk": 150,
+            "rdef": 180,
+            "speed": 100
+        },
+        "Trapwurm":{
+            "type": "Earth",
+            "hp": 120,
+            "matk": 150,
+            "mdef": 120,
+            "ratk": 90,
+            "rdef": 120,
+            "speed": 90
+        },
+        "Wyrmaw":{
+            "type": "Earth",
+            "hp": 150,
+            "matk": 180,
+            "mdef": 130,
+            "ratk": 110,
+            "rdef": 130,
+            "speed": 100
+        },
+        "Ferriclaw":{
+            "type": "Metal",
+            "hp": 90,
+            "matk": 140,
+            "mdef": 100,
+            "ratk": 90,
+            "rdef": 140,
+            "speed": 140
+        },
+        "Auriclaw":{
+            "type": "Metal",
+            "hp": 100,
+            "matk": 170,
+            "mdef": 100,
+            "ratk": 100,
+            "rdef": 170,
+            "speed": 160
+        },
+        "Picksie":{
+            "type": "Earth",
+            "hp": 130,
+            "matk": 130,
+            "mdef": 130,
+            "ratk": 130,
+            "rdef": 130,
+            "speed": 150
+        },
+        "Pawper":{
+            "type": "Beast",
+            "hp": 120,
+            "matk": 130,
+            "mdef": 100,
+            "ratk": 100,
+            "rdef": 120,
+            "speed": 130
+        },
+        "Pawprince":{
+            "type": "Beast",
+            "hp": 140,
+            "matk": 160,
+            "mdef": 110,
+            "ratk": 110,
+            "rdef": 140,
+            "speed": 140
+        },
+        "Amphare":{
+            "type": "Lightning",
+            "hp": 120,
+            "matk": 100,
+            "mdef": 120,
+            "ratk": 100,
+            "rdef": 80,
+            "speed": 80
+        },
+        "Blunderbusk":{
+            "type": "Fire",
+            "hp": 150,
+            "matk": 120,
+            "mdef": 150,
+            "ratk": 150,
+            "rdef": 100,
+            "speed": 130
+        },
+        "Charlequin":{
+            "type": "Fire",
+            "hp": 80,
+            "matk": 110,
+            "mdef": 80,
+            "ratk": 120,
+            "rdef": 100,
+            "speed": 110
+        },
+        "Fragliacci":{
+            "type": "Fire",
+            "hp": 100,
+            "matk": 140,
+            "mdef": 100,
+            "ratk": 170,
+            "rdef": 160,
+            "speed": 130
+        },
+        "Hauntome":{
+            "type": "Air",
+            "hp": 110,
+            "matk": 180,
+            "mdef": 150,
+            "ratk": 180,
+            "rdef": 80,
+            "speed": 100
+        },
+        "Lapacitor":{
+            "type": "Lightning",
+            "hp": 150,
+            "matk": 125,
+            "mdef": 150,
+            "ratk": 125,
+            "rdef": 150,
+            "speed": 100
+        },
+        "Littlered":{
+            "type": "Beast",
+            "hp": 100,
+            "matk": 100,
+            "mdef": 100,
+            "ratk": 100,
+            "rdef": 100,
+            "speed": 100
+        },
+        "Majortom":{
+            "type": "Metal",
+            "hp": 150,
+            "matk": 150,
+            "mdef": 150,
+            "ratk": 110,
+            "rdef": 110,
+            "speed": 130
+        },
+        "Minortom":{
+            "type": "Metal",
+            "hp": 130,
+            "matk": 130,
+            "mdef": 130,
+            "ratk": 70,
+            "rdef": 70,
+            "speed": 70
+        },
+        "Minosteam":{
+            "type": "Metal",
+            "hp": 150,
+            "matk": 180,
+            "mdef": 180,
+            "ratk": 120,
+            "rdef": 120,
+            "speed": 90
+        },
+        "Rosehood":{
+            "type": "Plant",
+            "hp": 160,
+            "matk": 110,
+            "mdef": 100,
+            "ratk": 160,
+            "rdef": 110,
+            "speed": 160
+        },
+        "Scarleteeth":{
+            "type": "Beast",
+            "hp": 110,
+            "matk": 160,
+            "mdef": 160,
+            "ratk": 100,
+            "rdef": 160,
+            "speed": 110
+        },
+        "Umbrahella":{
+            "type": "Poison",
+            "hp": 150,
+            "matk": 120,
+            "mdef": 140,
+            "ratk": 170,
+            "rdef": 200,
+            "speed": 60
+        }
+    },
+    "moves":{
+        "Abramacabra":{
+            "type":"Beast",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"3 AP"
+         },
+        "Acid Reflex":{
+            "type":"Poison",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"Unavoidable",
+            "cost":"Passive"
+         },
+        "Acorn Mortar":{
+            "type":"Plant",
+            "category":"Ranged Attack",
+            "power":"100",
+            "accuracy":"75%",
+            "cost":"3 AP"
+         },
+        "Air Camouflage":{
+            "type":"Air",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Air Coating":{
+            "type":"Air",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Air Resistance":{
+            "type":"Air",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"Passive"
+         },
+        "Air Wall":{
+            "type":"Air",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "AP Boost":{
+            "type":"Astral",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"1 AP"
+         },
+        "AP Donate":{
+            "type":"Typeless",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"Unavoidable",
+            "cost":"1 AP"
+         },
+        "AP Drain":{
+            "type":"Astral",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"1 AP"
+         },
+        "AP Factory":{
+            "type":"Typeless",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"Unavoidable",
+            "cost":"Passive"
+         },
+        "AP Refund":{
+            "type":"Typeless",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"Passive"
+         },
+        "AP Starter":{
+            "type":"Typeless",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"Passive"
+         },
+        "AP Steal":{
+            "type":"Poison",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"70%",
+            "cost":"0 AP"
+         },
+        "Astral Camouflage":{
+            "type":"Astral",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Astral Coating":{
+            "type":"Astral",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Astral Resistance":{
+            "type":"Astral",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"Passive"
+         },
+        "Astral Wall":{
+            "type":"Astral",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Automation":{
+            "type":"Typeless",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"Passive"
+         },
+        "Avalanche":{
+            "type":"Ice",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"Unavoidable",
+            "cost":"2 AP"
+         },
+        "Bad Forecast":{
+            "type":"Poison",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"50%",
+            "cost":"1 AP"
+         },
+        "Bad Joke":{
+            "type":"Typeless",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"Unavoidable",
+            "cost":"0 AP"
+         },
+        "Battering Ram":{
+            "type":"Typeless",
+            "category":"Melee Attack",
+            "power":"70",
+            "accuracy":"85%",
+            "cost":"3 AP"
+         },
+        "Battery":{
+            "type":"Lightning",
+            "category":"Melee Attack",
+            "power":"40",
+            "accuracy":"100%",
+            "cost":"3 AP"
+         },
+        "bE rAnDoM!!":{
+            "type":"Astral",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"0 AP"
+         },
+        "Bear Hug":{
+            "type":"Beast",
+            "category":"Melee Attack",
+            "power":"30",
+            "accuracy":"100%",
+            "cost":"1 AP"
+         },
+        "Beast Camouflage":{
+            "type":"Beast",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Beast Coating":{
+            "type":"Beast",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Beast Resistance":{
+            "type":"Beast",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"Passive"
+         },
+        "Beast Wall":{
+            "type":"Beast",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Berserker":{
+            "type":"Beast",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"Passive"
+         },
+        "Binvasion":{
+            "type":"Fire",
+            "category":"Ranged Attack",
+            "power":"30",
+            "accuracy":"100%",
+            "cost":"3 AP"
+         },
+        "Binvitation":{
+            "type":"Metal",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"50%",
+            "cost":"4 AP"
+         },
+        "Bish Bash Bosh":{
+            "type":"Typeless",
+            "category":"Melee Attack",
+            "power":"60",
+            "accuracy":"100%",
+            "cost":"3 AP"
+         },
+        "Bite":{
+            "type":"Beast",
+            "category":"Melee Attack",
+            "power":"80",
+            "accuracy":"100%",
+            "cost":"3 AP"
+         },
+        "Blizzard":{
+            "type":"Ice",
+            "category":"Ranged Attack",
+            "power":"60",
+            "accuracy":"100%",
+            "cost":"5 AP"
+         },
+        "Blood Donation":{
+            "type":"Beast",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"Unavoidable",
+            "cost":"2 AP"
+         },
+        "Bloodlust":{
+            "type":"Beast",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"Unavoidable",
+            "cost":"Passive"
+         },
+        "Boil":{
+            "type":"Water",
+            "category":"Melee Attack",
+            "power":"90",
+            "accuracy":"100%",
+            "cost":"3 AP"
+         },
+        "Bolt From The Blue":{
+            "type":"Lightning",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"50%",
+            "cost":"4 AP"
+         },
+        "Bon Bon Blast":{
+            "type":"Typeless",
+            "category":"Ranged Attack",
+            "power":"70",
+            "accuracy":"85%",
+            "cost":"3 AP"
+         },
+        "Bone Cannon":{
+            "type":"Beast",
+            "category":"Ranged Attack",
+            "power":"40",
+            "accuracy":"100%",
+            "cost":"3 AP"
+         },
+        "Booby Trap":{
+            "type":"Typeless",
+            "category":"Miscellaneous",
+            "power":"30",
+            "accuracy":"100%",
+            "cost":"0 AP"
+         },
+        "Bottle Volley":{
+            "type":"Glass",
+            "category":"Ranged Attack",
+            "power":"40",
+            "accuracy":"100%",
+            "cost":"3 AP"
+         },
+        "Brace for Impact":{
+            "type":"Metal",
+            "category":"Melee Attack",
+            "power":"120",
+            "accuracy":"100%",
+            "cost":"4 AP"
+         },
+        "Breathing Technique":{
+            "type":"Astral",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"50%",
+            "cost":"Passive"
+         },
+        "Brick Blast":{
+            "type":"Plastic",
+            "category":"Ranged Attack",
+            "power":"40",
+            "accuracy":"100%",
+            "cost":"4 AP"
+         },
+        "Broadcast":{
+            "type":"Air",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Burning Passion":{
+            "type":"Fire",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"Passive"
+         },
+        "Bushfire":{
+            "type":"Plant",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"Unavoidable",
+            "cost":"2 AP"
+         },
+        "Butterfly Effect":{
+            "type":"Air",
+            "category":"Ranged Attack",
+            "power":"30",
+            "accuracy":"100%",
+            "cost":"0 AP"
+         },
+        "Call For Help":{
+            "type":"Typeless",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"50%",
+            "cost":"2 AP"
+         },
+        "Carnivore":{
+            "type":"Beast",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"Passive"
+         },
+        "Change the Record":{
+            "type":"Typeless",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"Unavoidable",
+            "cost":"2 AP"
+         },
+        "Charge":{
+            "type":"Lightning",
+            "category":"Melee Attack",
+            "power":"60",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Chemical Imbalance":{
+            "type":"Poison",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"Passive"
+         },
+        "Clay-Fired":{
+            "type":"Earth",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"Unavoidable",
+            "cost":"Passive"
+         },
+        "Clobber":{
+            "type":"Typeless",
+            "category":"Melee Attack",
+            "power":"60",
+            "accuracy":"100%",
+            "cost":"4 AP"
+         },
+        "Clockwork Mouse":{
+            "type":"Plastic",
+            "category":"Melee Attack",
+            "power":"120",
+            "accuracy":"100%",
+            "cost":"5 AP"
+         },
+        "Close Encounter":{
+            "type":"Astral",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"1 AP"
+         },
+        "Coal Story":{
+            "type":"Earth",
+            "category":"Ranged Attack",
+            "power":"30",
+            "accuracy":"100%",
+            "cost":"1 AP"
+         },
+        "Cold Fusion":{
+            "type":"Ice",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"Unavoidable",
+            "cost":"Passive"
+         },
+        "Compliment":{
+            "type":"Typeless",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"1 AP"
+         },
+        "Copper Chop":{
+            "type":"Metal",
+            "category":"Melee Attack",
+            "power":"60",
+            "accuracy":"100%",
+            "cost":"3 AP"
+         },
+        "Copy That":{
+            "type":"Air",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"Unavoidable",
+            "cost":"2 AP"
+         },
+        "Copycat":{
+            "type":"Beast",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"0 AP"
+         },
+        "Cosmic Kunai":{
+            "type":"Astral",
+            "category":"Ranged Attack",
+            "power":"150",
+            "accuracy":"100%",
+            "cost":"10 AP"
+         },
+        "Cotton On":{
+            "type":"Plant",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"Unavoidable",
+            "cost":"4 AP"
+         },
+        "Critical AP":{
+            "type":"Typeless",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"Passive"
+         },
+        "Critical Mass":{
+            "type":"Fire",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"Passive"
+         },
+        "Criticise":{
+            "type":"Typeless",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"1 AP"
+         },
+        "Crossfade":{
+            "type":"Typeless",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"1 AP"
+         },
+        "Crumble":{
+            "type":"Earth",
+            "category":"Ranged Attack",
+            "power":"30",
+            "accuracy":"Unavoidable",
+            "cost":"2 AP"
+         },
+        "Crystal Lens":{
+            "type":"Glass",
+            "category":"Ranged Attack",
+            "power":"60",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Custom Starter":{
+            "type":"Typeless",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"Passive"
+         },
+        "Damage Roll":{
+            "type":"Typeless",
+            "category":"Ranged Attack",
+            "power":"9",
+            "accuracy":"100%",
+            "cost":"3 AP"
+         },
+        "Deep Freeze":{
+            "type":"Ice",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"3 AP"
+         },
+        "Defend":{
+            "type":"Typeless",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"1 AP"
+         },
+        "Delegate":{
+            "type":"Typeless",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"3 AP"
+         },
+        "Desperation":{
+            "type":"Typeless",
+            "category":"Melee Attack",
+            "power":"20",
+            "accuracy":"100%",
+            "cost":"1 AP"
+         },
+        "Djinntoxicate":{
+            "type":"Astral",
+            "category":"Ranged Attack",
+            "power":"90",
+            "accuracy":"100%",
+            "cost":"4 AP"
+         },
+        "Doc Leaf":{
+            "type":"Plant",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"1 AP"
+         },
+        "Dodge":{
+            "type":"Typeless",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"1 AP"
+         },
+        "Dog Years":{
+            "type":"Beast",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"4 AP"
+         },
+        "Double Slice":{
+            "type":"Typeless",
+            "category":"Melee Attack",
+            "power":"30",
+            "accuracy":"100%",
+            "cost":"4 AP"
+         },
+        "Double Smack":{
+            "type":"Typeless",
+            "category":"Melee Attack",
+            "power":"30",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Dual Wield":{
+            "type":"Typeless",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Déjà Vu":{
+            "type":"Astral",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Earth Camouflage":{
+            "type":"Earth",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Earth Coating":{
+            "type":"Earth",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Earth Resistance":{
+            "type":"Earth",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"Passive"
+         },
+        "Earth Wall":{
+            "type":"Earth",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Echolocation":{
+            "type":"Air",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Elemental Coating":{
+            "type":"Typeless",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Elemental Wall":{
+            "type":"Typeless",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Energy Reserves":{
+            "type":"Lightning",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"Passive"
+         },
+        "Energy Shot":{
+            "type":"Typeless",
+            "category":"Ranged Attack",
+            "power":"60",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Energy Wave":{
+            "type":"Typeless",
+            "category":"Ranged Attack",
+            "power":"60",
+            "accuracy":"100%",
+            "cost":"3 AP"
+         },
+        "Fair Fight":{
+            "type":"Metal",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"Unavoidable",
+            "cost":"2 AP"
+         },
+        "Final Breath":{
+            "type":"Typeless",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"Passive"
+         },
+        "Fire Camouflage":{
+            "type":"Fire",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Fire Coating":{
+            "type":"Fire",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Fire Wall":{
+            "type":"Fire",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Fireproof":{
+            "type":"Fire",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"Passive"
+         },
+        "Fission Power":{
+            "type":"Typeless",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"1 AP"
+         },
+        "Flirt":{
+            "type":"Typeless",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"1 AP"
+         },
+        "Focus":{
+            "type":"Typeless",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"1 AP"
+         },
+        "Fog":{
+            "type":"Water",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"Unavoidable",
+            "cost":"4 AP"
+         },
+        "Fossil":{
+            "type":"Earth",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"Passive"
+         },
+        "Frozen Ground":{
+            "type":"Ice",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"Unavoidable",
+            "cost":"1 AP"
+         },
+        "Fuel Injection":{
+            "type":"Fire",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"Passive"
+         },
+        "Fusion Power":{
+            "type":"Typeless",
+            "category":"Miscellaneous",
+            "power":"200",
+            "accuracy":"100%",
+            "cost":"10 AP"
+         },
+        "Galactic Beatdown":{
+            "type":"Astral",
+            "category":"Melee Attack",
+            "power":"90",
+            "accuracy":"Unavoidable",
+            "cost":"4 AP"
+         },
+        "Gambit":{
+            "type":"Typeless",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Gasoline Spray":{
+            "type":"Fire",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"3 AP"
+         },
+        "Gear Shear":{
+            "type":"Metal",
+            "category":"Ranged Attack",
+            "power":"50",
+            "accuracy":"100%",
+            "cost":"10 AP"
+         },
+        "Gemstone Wall":{
+            "type":"Earth",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"3 AP"
+         },
+        "Glass Bonds":{
+            "type":"Glass",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Glass Camouflage":{
+            "type":"Glass",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Glass Cannon":{
+            "type":"Glass",
+            "category":"Ranged Attack",
+            "power":"120",
+            "accuracy":"100%",
+            "cost":"4 AP"
+         },
+        "Glass Coating":{
+            "type":"Glass",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Glass Resistance":{
+            "type":"Glass",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"Passive"
+         },
+        "Glass Wall":{
+            "type":"Glass",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Glitter Bomb":{
+            "type":"Glitter",
+            "category":"Ranged Attack",
+            "power":"30",
+            "accuracy":"100%",
+            "cost":"0 AP"
+         },
+        "Glitter Resistance":{
+            "type":"Glitter",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"Passive"
+         },
+        "Grounded":{
+            "type":"Lightning",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"Passive"
+         },
+        "Guzzle Fuel":{
+            "type":"Fire",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Hardback":{
+            "type":"Typeless",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"Passive"
+         },
+        "Haunt":{
+            "type":"Astral",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Headshot":{
+            "type":"Typeless",
+            "category":"Ranged Attack",
+            "power":"200",
+            "accuracy":"100%",
+            "cost":"10 AP"
+         },
+        "Heroic Blade":{
+            "type":"Typeless",
+            "category":"Melee Attack",
+            "power":"90",
+            "accuracy":"100%",
+            "cost":"3 AP"
+         },
+        "Hibernate":{
+            "type":"Astral",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"3 AP"
+         },
+        "Hot Potato":{
+            "type":"Fire",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"3 AP"
+         },
+        "Hurricane":{
+            "type":"Air",
+            "category":"Ranged Attack",
+            "power":"90",
+            "accuracy":"100%",
+            "cost":"5 AP"
+         },
+        "Hypnotise":{
+            "type":"Astral",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"50%",
+            "cost":"2 AP"
+         },
+        "Ice Breaker":{
+            "type":"Ice",
+            "category":"Melee Attack",
+            "power":"90",
+            "accuracy":"100%",
+            "cost":"4 AP"
+         },
+        "Ice Camouflage":{
+            "type":"Ice",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Ice Coating":{
+            "type":"Ice",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Ice Resistance":{
+            "type":"Ice",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"Passive"
+         },
+        "Ice Wall":{
+            "type":"Ice",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Icicle Dart":{
+            "type":"Ice",
+            "category":"Ranged Attack",
+            "power":"70",
+            "accuracy":"85%",
+            "cost":"2 AP"
+         },
+        "Incinerate":{
+            "type":"Fire",
+            "category":"Melee Attack",
+            "power":"40",
+            "accuracy":"100%",
+            "cost":"3 AP"
+         },
+        "Inflame":{
+            "type":"Fire",
+            "category":"Ranged Attack",
+            "power":"60",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Insomnia":{
+            "type":"Astral",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"70%",
+            "cost":"Passive"
+         },
+        "Ionised Air":{
+            "type":"Lightning",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"3 AP"
+         },
+        "Iron Filings":{
+            "type":"Metal",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"1 AP"
+         },
+        "Jagged Edge":{
+            "type":"Typeless",
+            "category":"Melee Attack",
+            "power":"40",
+            "accuracy":"Unavoidable",
+            "cost":"Passive"
+         },
+        "Jump Scare":{
+            "type":"Typeless",
+            "category":"Melee Attack",
+            "power":"30",
+            "accuracy":"100%",
+            "cost":"1 AP"
+         },
+        "Last Rites":{
+            "type":"Typeless",
+            "category":"Melee Attack",
+            "power":"200",
+            "accuracy":"100%",
+            "cost":"10 AP"
+         },
+        "Leech":{
+            "type":"Plant",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"1 AP"
+         },
+        "Life Absorb":{
+            "type":"Plant",
+            "category":"Melee Attack",
+            "power":"30",
+            "accuracy":"100%",
+            "cost":"1 AP"
+         },
+        "Liftoff":{
+            "type":"Air",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"Passive"
+         },
+        "Lightning Bolt":{
+            "type":"Lightning",
+            "category":"Ranged Attack",
+            "power":"90",
+            "accuracy":"100%",
+            "cost":"3 AP"
+         },
+        "Lightning Camouflage":{
+            "type":"Lightning",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Lightning Coating":{
+            "type":"Lightning",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Lightning Wall":{
+            "type":"Lightning",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Liquid Body":{
+            "type":"Poison",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"Passive"
+         },
+        "Machine Curse":{
+            "type":"Metal",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"Passive"
+         },
+        "Magic Tome":{
+            "type":"Astral",
+            "category":"Ranged Attack",
+            "power":"70",
+            "accuracy":"100%",
+            "cost":"3 AP"
+         },
+        "Magnet":{
+            "type":"Metal",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"1 AP"
+         },
+        "Meditate":{
+            "type":"Astral",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"3 AP"
+         },
+        "Metal Camouflage":{
+            "type":"Metal",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Metal Coating":{
+            "type":"Metal",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Metal Resistance":{
+            "type":"Metal",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"Passive"
+         },
+        "Metal Riff":{
+            "type":"Metal",
+            "category":"Ranged Attack",
+            "power":"60",
+            "accuracy":"100%",
+            "cost":"3 AP"
+         },
+        "Metal Wall":{
+            "type":"Metal",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Meteor Barrage":{
+            "type":"Earth",
+            "category":"Ranged Attack",
+            "power":"20",
+            "accuracy":"100%",
+            "cost":"4 AP"
+         },
+        "Mind-Meld":{
+            "type":"Astral",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"Unavoidable",
+            "cost":"2 AP"
+         },
+        "Moonshine":{
+            "type":"Astral",
+            "category":"Ranged Attack",
+            "power":"30",
+            "accuracy":"100%",
+            "cost":"1 AP"
+         },
+        "Mountain Smash":{
+            "type":"Earth",
+            "category":"Melee Attack",
+            "power":"90",
+            "accuracy":"100%",
+            "cost":"4 AP"
+         },
+        "Multi Shot":{
+            "type":"Typeless",
+            "category":"Ranged Attack",
+            "power":"20",
+            "accuracy":"100%",
+            "cost":"3 AP"
+         },
+        "Multi Smack":{
+            "type":"Typeless",
+            "category":"Melee Attack",
+            "power":"20",
+            "accuracy":"100%",
+            "cost":"3 AP"
+         },
+        "Multicopy":{
+            "type":"Typeless",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"Passive"
+         },
+        "Neutralise":{
+            "type":"Water",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"Passive"
+         },
+        "New Leaf":{
+            "type":"Plant",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"Unavoidable",
+            "cost":"3 AP"
+         },
+        "Nod":{
+            "type":"Typeless",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"1 AP"
+         },
+        "Nurse":{
+            "type":"Typeless",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"Unavoidable",
+            "cost":"5 AP"
+         },
+        "Paint Swipe":{
+            "type":"Typeless",
+            "category":"Melee Attack",
+            "power":"90",
+            "accuracy":"100%",
+            "cost":"1 AP"
+         },
+        "Parry Stance":{
+            "type":"Beast",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Peekaboo":{
+            "type":"Typeless",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"1 AP"
+         },
+        "Phase Shift":{
+            "type":"Astral",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"Passive"
+         },
+        "Pity AP":{
+            "type":"Typeless",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"Passive"
+         },
+        "Plant Camouflage":{
+            "type":"Plant",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Plant Coating":{
+            "type":"Plant",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Plant Resistance":{
+            "type":"Plant",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"Passive"
+         },
+        "Plant Wall":{
+            "type":"Plant",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Plastic Camouflage":{
+            "type":"Plastic",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Plastic Coating":{
+            "type":"Plastic",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Plastic Knife":{
+            "type":"Plastic",
+            "category":"Melee Attack",
+            "power":"40",
+            "accuracy":"100%",
+            "cost":"3 AP"
+         },
+        "Plastic Resistance":{
+            "type":"Plastic",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"Passive"
+         },
+        "Plastic Wall":{
+            "type":"Plastic",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Poison Camouflage":{
+            "type":"Poison",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Poison Coating":{
+            "type":"Poison",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Poison Pollen":{
+            "type":"Plant",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"1 AP"
+         },
+        "Poison Resistance":{
+            "type":"Poison",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"Passive"
+         },
+        "Poison Wall":{
+            "type":"Poison",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Pole Vault Assault":{
+            "type":"Air",
+            "category":"Melee Attack",
+            "power":"90",
+            "accuracy":"100%",
+            "cost":"7 AP"
+         },
+        "Pre-emptive Strike":{
+            "type":"Typeless",
+            "category":"Melee Attack",
+            "power":"30",
+            "accuracy":"100%",
+            "cost":"Passive"
+         },
+        "Prismatic":{
+            "type":"Glitter",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"Unavoidable",
+            "cost":"Passive"
+         },
+        "Provoke":{
+            "type":"Poison",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"1 AP"
+         },
+        "Pumpkin Pie":{
+            "type":"Plant",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"Unavoidable",
+            "cost":"2 AP"
+         },
+        "Pustule Bomb":{
+            "type":"Poison",
+            "category":"Ranged Attack",
+            "power":"60",
+            "accuracy":"100%",
+            "cost":"4 AP"
+         },
+        "Quick Smack":{
+            "type":"Typeless",
+            "category":"Melee Attack",
+            "power":"30",
+            "accuracy":"100%",
+            "cost":"1 AP"
+         },
+        "Radiation Breath":{
+            "type":"Poison",
+            "category":"Ranged Attack",
+            "power":"20",
+            "accuracy":"100%",
+            "cost":"4 AP"
+         },
+        "Radioactive":{
+            "type":"Fire",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"Unavoidable",
+            "cost":"Passive"
+         },
+        "Raise Arms":{
+            "type":"Typeless",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"1 AP"
+         },
+        "Raise Shields":{
+            "type":"Typeless",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"1 AP"
+         },
+        "Random Starter":{
+            "type":"Typeless",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"Passive"
+         },
+        "Rapid Fire":{
+            "type":"Fire",
+            "category":"Ranged Attack",
+            "power":"30",
+            "accuracy":"100%",
+            "cost":"5 AP"
+         },
+        "Recycle":{
+            "type":"Plastic",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"0 AP"
+         },
+        "Retribution":{
+            "type":"Typeless",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"Unavoidable",
+            "cost":"Passive"
+         },
+        "Return Fire":{
+            "type":"Typeless",
+            "category":"Ranged Attack",
+            "power":"15",
+            "accuracy":"100%",
+            "cost":"Passive"
+         },
+        "Revenge Strike":{
+            "type":"Typeless",
+            "category":"Melee Attack",
+            "power":"15",
+            "accuracy":"100%",
+            "cost":"Passive"
+         },
+        "Revolving Door":{
+            "type":"Glass",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Ricochet":{
+            "type":"Typeless",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"Passive"
+         },
+        "Ritual":{
+            "type":"Astral",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"6 AP"
+         },
+        "Roll Again":{
+            "type":"Typeless",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"Passive"
+         },
+        "Royal Flush":{
+            "type":"Water",
+            "category":"Ranged Attack",
+            "power":"20",
+            "accuracy":"100%",
+            "cost":"6 AP"
+         },
+        "Sandstorm":{
+            "type":"Earth",
+            "category":"Ranged Attack",
+            "power":"60",
+            "accuracy":"100%",
+            "cost":"3 AP"
+         },
+        "Scorch":{
+            "type":"Fire",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"1 AP"
+         },
+        "Self-Assured":{
+            "type":"Typeless",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"70%",
+            "cost":"Passive"
+         },
+        "Self-Destruct":{
+            "type":"Fire",
+            "category":"Ranged Attack",
+            "power":"60",
+            "accuracy":"100%",
+            "cost":"Passive"
+         },
+        "Sharp Edges":{
+            "type":"Typeless",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Sharpen":{
+            "type":"Typeless",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"1 AP"
+         },
+        "Shear Luck":{
+            "type":"Typeless",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"Passive"
+         },
+        "Shield Bash":{
+            "type":"Metal",
+            "category":"Melee Attack",
+            "power":"90",
+            "accuracy":"100%",
+            "cost":"3 AP"
+         },
+        "Shooting Star":{
+            "type":"Astral",
+            "category":"Ranged Attack",
+            "power":"60",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Shrapnel":{
+            "type":"Metal",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"1 AP"
+         },
+        "Silicon Slash":{
+            "type":"Glass",
+            "category":"Melee Attack",
+            "power":"60",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Sleep Talk":{
+            "type":"Typeless",
+            "category":"Ranged Attack",
+            "power":"120",
+            "accuracy":"1%",
+            "cost":"0 AP"
+         },
+        "Sleep Walk":{
+            "type":"Typeless",
+            "category":"Melee Attack",
+            "power":"120",
+            "accuracy":"1%",
+            "cost":"0 AP"
+         },
+        "Slice":{
+            "type":"Typeless",
+            "category":"Melee Attack",
+            "power":"30",
+            "accuracy":"100%",
+            "cost":"1 AP"
+         },
+        "Smack":{
+            "type":"Typeless",
+            "category":"Melee Attack",
+            "power":"30",
+            "accuracy":"100%",
+            "cost":"0 AP"
+         },
+        "Snooze Spore":{
+            "type":"Plant",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"50%",
+            "cost":"2 AP"
+         },
+        "Snow Rush":{
+            "type":"Ice",
+            "category":"Melee Attack",
+            "power":"60",
+            "accuracy":"100%",
+            "cost":"3 AP"
+         },
+        "Sonic Boom":{
+            "type":"Air",
+            "category":"Ranged Attack",
+            "power":"60",
+            "accuracy":"100%",
+            "cost":"3 AP"
+         },
+        "Spit":{
+            "type":"Typeless",
+            "category":"Ranged Attack",
+            "power":"30",
+            "accuracy":"100%",
+            "cost":"0 AP"
+         },
+        "Splinter":{
+            "type":"Plant",
+            "category":"Melee Attack",
+            "power":"15",
+            "accuracy":"Unavoidable",
+            "cost":"Passive"
+         },
+        "Spray":{
+            "type":"Typeless",
+            "category":"Ranged Attack",
+            "power":"30",
+            "accuracy":"100%",
+            "cost":"1 AP"
+         },
+        "Spring-Load":{
+            "type":"Plastic",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"Unavoidable",
+            "cost":"Passive"
+         },
+        "Sprint":{
+            "type":"Typeless",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"1 AP"
+         },
+        "Stab In The Dark":{
+            "type":"Typeless",
+            "category":"Melee Attack",
+            "power":"100",
+            "accuracy":"10%",
+            "cost":"0 AP"
+         },
+        "Status Resistance":{
+            "type":"Metal",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"Passive"
+         },
+        "Sticker Trick":{
+            "type":"Glitter",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"3 AP"
+         },
+        "Sticky Spray":{
+            "type":"Poison",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"3 AP"
+         },
+        "Sticky Tongue":{
+            "type":"Beast",
+            "category":"Melee Attack",
+            "power":"40",
+            "accuracy":"75%",
+            "cost":"1 AP"
+         },
+        "Stony Look":{
+            "type":"Earth",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"50%",
+            "cost":"2 AP"
+         },
+        "Sturdy Armour":{
+            "type":"Metal",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"Passive"
+         },
+        "Suction Cup Dart":{
+            "type":"Plastic",
+            "category":"Ranged Attack",
+            "power":"120",
+            "accuracy":"75%",
+            "cost":"4 AP"
+         },
+        "Sugar Rush":{
+            "type":"Typeless",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"Passive"
+         },
+        "Suit Up":{
+            "type":"Typeless",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"Unavoidable",
+            "cost":"2 AP"
+         },
+        "Summon Tulpa":{
+            "type":"Astral",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"1%",
+            "cost":"0 AP"
+         },
+        "Superheated Fist":{
+            "type":"Fire",
+            "category":"Melee Attack",
+            "power":"60",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Sure-Fire":{
+            "type":"Fire",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Taunt":{
+            "type":"Poison",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"1 AP"
+         },
+        "The Old 1-2":{
+            "type":"Typeless",
+            "category":"Melee Attack",
+            "power":"60",
+            "accuracy":"100%",
+            "cost":"5 AP"
+         },
+        "Throw":{
+            "type":"Typeless",
+            "category":"Ranged Attack",
+            "power":"50",
+            "accuracy":"100%",
+            "cost":"0 AP"
+         },
+        "Thunder Blast":{
+            "type":"Lightning",
+            "category":"Ranged Attack",
+            "power":"60",
+            "accuracy":"100%",
+            "cost":"3 AP"
+         },
+        "Torrent":{
+            "type":"Water",
+            "category":"Ranged Attack",
+            "power":"40",
+            "accuracy":"100%",
+            "cost":"4 AP"
+         },
+        "Tower Defence":{
+            "type":"Earth",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"Passive"
+         },
+        "Toxic Stab":{
+            "type":"Poison",
+            "category":"Melee Attack",
+            "power":"90",
+            "accuracy":"100%",
+            "cost":"4 AP"
+         },
+        "Toy Hammer":{
+            "type":"Plastic",
+            "category":"Melee Attack",
+            "power":"60",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Traffic Jam":{
+            "type":"Plastic",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"Unavoidable",
+            "cost":"2 AP"
+         },
+        "Trap Jaw":{
+            "type":"Beast",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"50%",
+            "cost":"Passive"
+         },
+        "Treasure Dig":{
+            "type":"Earth",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"50%",
+            "cost":"2 AP"
+         },
+        "Treat":{
+            "type":"Typeless",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"Unavoidable",
+            "cost":"1 AP"
+         },
+        "Trick":{
+            "type":"Typeless",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"1 AP"
+         },
+        "Trip":{
+            "type":"Typeless",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"1 AP"
+         },
+        "Tripwire":{
+            "type":"Metal",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"Passive"
+         },
+        "Two Heads":{
+            "type":"Typeless",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Undertow":{
+            "type":"Water",
+            "category":"Ranged Attack",
+            "power":"90",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Unicast":{
+            "type":"Lightning",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Unshakeable":{
+            "type":"Earth",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"Passive"
+         },
+        "Vampire":{
+            "type":"Beast",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"Passive"
+         },
+        "Vengeful Curse":{
+            "type":"Astral",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"Passive"
+         },
+        "Wallop":{
+            "type":"Typeless",
+            "category":"Melee Attack",
+            "power":"60",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Water Camouflage":{
+            "type":"Water",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Water Coating":{
+            "type":"Water",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Water Dance":{
+            "type":"Water",
+            "category":"Melee Attack",
+            "power":"90",
+            "accuracy":"85%",
+            "cost":"2 AP"
+         },
+        "Water Wall":{
+            "type":"Water",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Waterproof":{
+            "type":"Water",
+            "category":"Miscellaneous",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"Passive"
+         },
+        "Waterworks":{
+            "type":"Water",
+            "category":"Ranged Attack",
+            "power":"100",
+            "accuracy":"90%",
+            "cost":"5 AP"
+         },
+        "Web Wrap":{
+            "type":"Poison",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"20%",
+            "cost":"0 AP"
+         },
+        "Window":{
+            "type":"Glass",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"1 AP"
+         },
+        "Wink":{
+            "type":"Typeless",
+            "category":"Status Effect",
+            "power":"N/A",
+            "accuracy":"100%",
+            "cost":"1 AP"
+         },
+        "Wonderful 7":{
+            "type":"Astral",
+            "category":"Ranged Attack",
+            "power":"90",
+            "accuracy":"100%",
+            "cost":"4 AP"
+         },
+        "Woodcutter":{
+            "type":"Plant",
+            "category":"Melee Attack",
+            "power":"40",
+            "accuracy":"100%",
+            "cost":"3 AP"
+         },
+        "Yule Regret That":{
+            "type":"Ice",
+            "category":"Ranged Attack",
+            "power":"60",
+            "accuracy":"100%",
+            "cost":"4 AP"
+         },
+        "Zephyr":{
+            "type":"Air",
+            "category":"Ranged Attack",
+            "power":"60",
+            "accuracy":"100%",
+            "cost":"2 AP"
+         },
+        "Zoomies":{
+            "type":"Beast",
+            "category":"Melee Attack",
+            "power":"30",
+            "accuracy":"100%",
+            "cost":"1 AP"
+         },
+         "Empty":{
+         }
+    }
+}

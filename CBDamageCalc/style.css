@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "Neu5Land-Bold";
+    src: url(../fonts/Neu5Land-Bold.ttf);
+}
+body {
+    background-color: #2b1a3a;
+}
+.box {
+    width: 500px;
+    min-width: 500px;
+    background-color: #fcfefd;
+    margin: 10px;
+}
+.headerbar {
+    background-color: #ab75e7;
+    text-align: center;
+    font-family: "Neu5Land-Bold";
+    color: #fcfefd;
+    font-size: 30px;
+}
+.monsterDropdown {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+.monsterDropdownButton {
+    padding: 6px;
+    width: 98%;
+    margin-top: 8px;
+    font-size: 16px;
+    text-align: left;
+    margin-left: 1%;
+    border: 3px, solid, #59ab96;
+    cursor: pointer;
+    background-color: transparent;
+  }
+.monsterDropdownContent {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 96.8%;
+    margin-left: 1%;
+    border: 3px, solid, #59ab96;
+    border-top: transparent;
+    z-index: 1;
+    max-height: 150px;
+    overflow: scroll;
+}
+.monsterDropdownContent a {
+    color: black;
+    padding: 6px 16px;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+}
+.moveDropdown {
+    position: relative;
+    display: inline-block;
+    width: 50%;
+}
+.show {
+    display:block;
+}
